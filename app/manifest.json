@@ -20,6 +20,7 @@
     "content_scripts": [
         {
             "matches": [
+                "https://git.uc.edu/*/*/pull/*",
                 "https://github.com/*/*/pull/*"
             ],
             "js": [
